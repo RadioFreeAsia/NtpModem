@@ -21,6 +21,7 @@
 #ifndef NTPMODEMD_H
 #define NTPMODEMD_H
 
+#include <QDateTime>
 #include <QObject>
 
 class MainObject : public QObject
@@ -28,6 +29,10 @@ class MainObject : public QObject
  Q_OBJECT;
  public:
   MainObject(QObject *parent=0);
+
+ private:
+  QDateTime NextTick(const QDateTime &dt) const;
+  int JulianDay(const QDate &date);
 };
 
 
