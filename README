@@ -1,0 +1,11 @@
+This is the README file for the ntpmodem package.
+
+This software comes with ABSOLUTELY NO WARRANTY.  See the file 'COPYING' for
+details.
+
+See the file 'INSTALL' for instructions on building ntpmodem from source.
+
+Ntpmodem is a small program for serving time via dial-up modem, using the
+protocol documented at:
+
+	 http://tycho.usno.navy.mil/modem_time.html
